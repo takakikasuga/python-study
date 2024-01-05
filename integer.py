@@ -16,4 +16,4 @@ def get_integer():
   print(result1)
   result2 = math.log10(10)
   print(result2)
-  print(help(math))
+  # print(help(math))
