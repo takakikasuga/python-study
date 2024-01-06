@@ -1,7 +1,7 @@
 import variable
 import __print
-import integer
 import __string
+import integer
 
 print("Hello World!")
 variable.get_variable()
