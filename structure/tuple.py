@@ -34,3 +34,25 @@ def get_tuple():
     new_tuple = (1,) + (6, 7, 8, 9, 10)
     print(new_tuple)
     print(type(new_tuple))
+    num_tuple = (10, 20)
+    print(num_tuple)
+    x, y = num_tuple
+    print("x = ", x)
+    print("y = ", y)
+    min, max = 10, 100
+    print("min = ", min)
+    print("max = ", max)
+    i = 10
+    j = 20
+    tmp = i
+    i = j
+    j = tmp
+    print("i = ", i)
+    print("j = ", j)
+    a = 100
+    b = 200
+    print("a = ", a)
+    print("b = ", b)
+    a, b = b, a
+    print("a = ", a)
+    print("b = ", b)
