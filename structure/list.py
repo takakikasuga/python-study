@@ -84,4 +84,30 @@ def get_list():
     print(x)
     x = "!!!".join(s)
     print(x)
-    print(help(list))
+    # print(help(list))
+    i = [1, 2, 3, 4, 5]
+    j = i
+    j[0] = 100
+    print("j = ", j)
+    print("i = ", i)
+    x = [1, 2, 3, 4, 5]
+    # y = x.copy()
+    y = x[:]
+    y[0] = 100
+    print("x = ", x)
+    print("y = ", y)
+    X = 20
+    Y = X
+    Y = 5
+    print("X = ", X)
+    print("Y = ", Y)
+    print("id(X) = ", id(X))
+    print("id(Y) = ", id(Y))
+    X = ["a", "b"]
+    Y = X
+    Y[0] = "p"
+    print("X = ", X)
+    print("Y = ", Y)
+    print("id(X) = ", id(X))
+    print("id(Y) = ", id(Y))
+
