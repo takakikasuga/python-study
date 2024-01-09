@@ -78,3 +78,9 @@ def get_loop():
         print(days[i], fruit[i], drinks[i])
     for day, fruit, drink in zip(days, fruit, drinks):
         print(day, fruit, drink)
+    x = {"apple": 100, "banana": 200}
+    for v in x:
+        print(v)
+    print(x.items())
+    for k, v in x.items():
+        print(k, v)
