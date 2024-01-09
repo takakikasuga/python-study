@@ -26,3 +26,8 @@ def get_loop():
         count += 1
     else:
         print("done")
+    while True:
+        word = input("Enter:")
+        if word == "ok":
+            break
+        print("next")
