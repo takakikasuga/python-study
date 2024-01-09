@@ -69,3 +69,5 @@ def get_loop():
         print(i)
     for _ in range(10):
         print("hello")
+    for i, fruit in enumerate(["apple", "banana", "orange"]):
+        print(i, fruit)
