@@ -58,3 +58,14 @@ def get_loop():
         print(fruit)
     else:
         print("I ate all!")
+    num_list = [0, 1, 2, 3, 4, 5]
+    for i in num_list:
+        print(i)
+    for i in range(10):
+        print(i)
+    for i in range(2, 10):
+        print(i)
+    for i in range(2, 10, 3):
+        print(i)
+    for _ in range(10):
+        print("hello")
