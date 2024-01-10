@@ -51,3 +51,19 @@ def get_function():
     say_something("Hi", "Mike", "Nance")
     t = ("Mike", "Nancy")
     say_something("Hi", *t)
+    def menu(**kwargs):
+        print(kwargs)
+        for k, v in kwargs.items():
+            print(k, ":", v)
+    menu(entree="chicken", dessert="ice", drink="beer")
+    d = {
+        "entree": "beef",
+        "drink": "ice",
+        "dessert": "beer",
+    }
+    menu(**d)
+    def menu(food, *args, **kwargs):
+        print("food = ", food)
+        print("args = ", args)
+        print("kwargs = ", kwargs)
+    menu("banana", "apple", "orange", entree="beef", drink="beer")
