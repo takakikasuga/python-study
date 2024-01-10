@@ -8,7 +8,7 @@
       "name": "Python: 現在のファイル",
       "type": "python",
       "request": "launch",
-      "program": "${workspaceFolder}/controlflow/main.py",
+      "program": "${workspaceFolder}/function/main.py",
       "console": "integratedTerminal",
       "justMyCode": true
     }

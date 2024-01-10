@@ -1,3 +1,5 @@
-import __function
+import basic
+import inner
 
-__function.get_function()
+basic.get_function()
+inner.get_inner_function()
