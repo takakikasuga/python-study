@@ -22,3 +22,10 @@ def get_function():
         return a + b
     r = add_num(10, 20)
     print(r)
+
+    def menu(entree="beef", drink="wine", dessert="ice"):
+        print("dessert = ", dessert)
+        print("entree = ", entree)
+        print("drink = ", drink)
+    menu()
+    menu(entree="beef", dessert="ice", drink="beer")
