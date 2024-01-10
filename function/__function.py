@@ -17,3 +17,8 @@ def get_function():
             return "I don't know"
     result = what_is_this("red")
     print(result)
+
+    def add_num(a: int, b: int) -> int:
+        return a + b
+    r = add_num(10, 20)
+    print(r)
